@@ -1,0 +1,175 @@
+@media only screen and (max-width:1400px){
+    html{
+        font-size: 55%;
+    }
+}
+@media only screen and (max-width:1050px){
+    .aboutexplain{
+        margin: 4rem 10rem;
+    }
+    .brandname{
+        font-size: 5rem;
+    }
+    .navtop{
+        padding: 1rem;
+    }
+    .navbottom{
+        padding: 0rem;
+        
+    }
+    .navbottom ul{
+        padding: 0rem;
+    }
+}
+@media only screen and (max-width:950px){
+    html{
+        font-size: 50%;
+    }
+    .button{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:800px){
+    .navbottom ul li a{
+        font-size: 2rem;
+        padding:0rem  1rem;
+    }
+    .brandname{
+        display: none;
+    }
+    .brandname2{
+        display: block;
+    }
+    .box1, .box2 , .box3{
+        width: 25%;
+        
+    }
+    .creatorcontainer{
+        justify-content: space-between;
+    }
+    .img img{
+        height: 25rem;
+    }
+}
+@media only screen and (max-width:650px){
+    .navbottom{
+        height: 45vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column-reverse;
+        align-items: center;
+        background-color: rgba(0, 0, 0, .8);
+        transition: top 1s ease;
+        display: none;
+        text-align: center;
+        border-bottom: solid white 2px;
+        border-bottom-left-radius:1rem ;
+        border-bottom-right-radius:1rem ;
+    }
+    .navbottom .closemenu{
+        display: block;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+    }
+    .closemenu{
+        display: block;
+    }
+    nav .openmenu{
+        display: block; 
+    }
+    .navbottom ul{
+        flex-direction: column;
+        width: 100%;
+        font-size: 3rem;
+        background-color: rgba(0, 0, 0, .8);
+        /* background-image: url(/image/logo.jpg); */
+        padding: 1rem 1rem;
+        opacity: .8;
+    }
+    .navbottom ul li{
+        width: 100%;
+    }
+    .navbottom ul li a{
+        padding:0rem 6rem;
+        background: black;
+        box-shadow: 2px 2px 2px red;
+        color:white;
+        font-size: 3rem;
+    }
+    .brandname{
+        display: block;
+        font-size: 3rem;
+        padding: 0;
+        margin: 0;
+    }  
+    .brandname2{
+        display: none;
+    }
+    .logo img{
+        height: 5rem;
+    } 
+    .button {
+        display: none;
+    }
+    
+}
+@media only screen and (max-width:550px){
+    .aboutexplain{
+        margin: 0;
+    }
+    html{
+        font-size: 45%;
+    }
+    .creatorcontainer{
+        flex-direction: column;
+    }
+    .img img{
+        height: 15rem
+    }
+    .box1, .box2 , .box3{
+        width: 90%;
+        padding: 1rem;
+        margin: 2rem;
+        height: 20vh;
+        background-color: rgba(0, 0, 0, .9);
+        box-shadow: 2px 2px 20px white , -3px -2px 6px green;
+    }
+    .intro{
+        float: right;
+    }
+    #creator h2{
+        padding-top: 10rem;
+    }
+    #video h1{
+        padding: 10rem 1rem; 
+    }
+}
+@media only screen and (max-width:450px){
+    
+    .brandname2{
+        display: block;
+        font-size: 3rem;
+    }
+    .brandname{
+        display: none;
+    }
+    .footer{
+        height: 10vh;
+    }
+    .slide:hover{
+        flex-basis: 90%;
+    }
+    .activeimg{
+        flex-basis: 90%;
+    }
+    #gallery:hover .activeimg{
+        flex-basis: 0;
+    }
+    .slide:nth-child(1):hover{
+        flex-basis: 90%;
+    }
+}
